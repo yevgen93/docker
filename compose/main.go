@@ -28,5 +28,5 @@ func main() {
 	http.ListenAndServe(":80", r)
 }
 
-# docker compose -f nginx-proxy-compose.yaml up -d
-# docker compose -f go-app-compose.yaml up -d
+// docker compose -f nginx-proxy-compose.yaml up -d
+// docker compose -f go-app-compose.yaml up -d
